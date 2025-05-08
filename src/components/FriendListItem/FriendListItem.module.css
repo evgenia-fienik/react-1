@@ -1,0 +1,29 @@
+.item {
+    border: 1px solid black;
+    width: 60px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.friendName {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.friendStatus {
+    font-size: 16px;
+    margin: 0;
+}
+
+.online {
+    color: green;
+
+}
+
+.offline {
+    color: red;
+
+}

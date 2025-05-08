@@ -1,0 +1,41 @@
+.transaction {
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+
+.transaction th,
+.transaction td {
+    border: 1px solid rgb(30, 29, 29);
+    padding: 12px 15px;
+    text-align: center;
+
+}
+
+.transaction th {
+    background-color: rgb(57, 56, 56);
+    color: white;
+    font-weight: bold;
+}
+
+/* .transaction tbody tr:nth-child(even) {
+    background-color: #c6c5c5;
+}  */
+
+
+/* непарні рядки червоного кольору */
+.transaction tbody tr:nth-child(odd) {
+    background-color: lightcoral;
+}
+/* парні рядки сині */
+.transaction tbody tr:nth-child(even) {
+    background-color: lightblue;
+}
+.transaction td:first-child {
+    text-align: left;
+    padding-left: 11%;
+}
